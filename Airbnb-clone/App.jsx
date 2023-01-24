@@ -8,7 +8,14 @@ export default function App() {
     <>
       <Header />
       <HeroSection />
-      <Card />
+      <Card
+        img="Card-image1.png"
+        rating="5.0"
+        reviewCount={6}
+        country="USA"
+        title="Learn wedding photography"
+        price={125}
+      />
     </>
   )
 }

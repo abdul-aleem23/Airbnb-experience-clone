@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  padding-top: 50px;
   align-items: center;
 }
 .HeroSection--image {
@@ -37,9 +38,10 @@ body {
 }
 
 .Card--div {
+  position: relative;
   width: 175px;
   font-size: 12px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .Card--image {
   width: 100%;
