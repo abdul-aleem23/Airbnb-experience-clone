@@ -37,18 +37,29 @@ body {
   margin-right: 110px;
 }
 
+.Card--list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin-left: 30%;
+}
 .Card--div {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto; 
   width: 175px;
   font-size: 12px;
-  margin-left: 40px;
+  margin-left: ;
 }
 .Card--image {
   width: 100%;
+  border-radius: 10px;
 }
 .Card--stats {
   display: flex;
   align-items: center;
+  margin-top: 6px;
 }
 .star-icon {
   height: 14px;
