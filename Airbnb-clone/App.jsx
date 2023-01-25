@@ -9,7 +9,7 @@ export default function App() {
   const cards = data.map(info => {
     return <Card
     key={info.id}
-    info={info}
+    {...info}
     />
   })
   return (
@@ -19,7 +19,6 @@ export default function App() {
       <div className="Card--list">
         {cards}
       </div>
-      
     </>
   )
 }
